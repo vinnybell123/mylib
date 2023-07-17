@@ -1,4 +1,4 @@
 def Download(repo)
 {
-  git '${repo}"
+git "${repo}"
 }
