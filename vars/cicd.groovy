@@ -12,5 +12,5 @@ def deploy(ip,appname)
 }
 def testing(pathname)
 {
-  sh 'java -jar /home/ubuntu/.jenkins/workspace/"${pathname}"/testing.jar'
+  sh "java -jar /home/ubuntu/.jenkins/workspace/${pathname}/testing.jar"
 }
